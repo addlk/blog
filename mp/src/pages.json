@@ -1,0 +1,27 @@
+﻿{
+  "pages": [
+    {"path": "pages/index/index", "style": {"navigationBarTitleText": "像素小站"}},
+    {"path": "pages/category/category", "style": {"navigationBarTitleText": "分类"}},
+    {"path": "pages/article/article", "style": {"navigationBarTitleText": "文章详情"}},
+    {"path": "pages/bookmarks/bookmarks", "style": {"navigationBarTitleText": "我的收藏"}},
+    {"path": "pages/profile/profile", "style": {"navigationBarTitleText": "我的"}}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#1a1a3e",
+    "backgroundColor": "#0f0f23",
+    "usingComponents": true
+  },
+  "tabBar": {
+    "color": "#7c7caa",
+    "selectedColor": "#ffb347",
+    "backgroundColor": "#1a1a3e",
+    "borderStyle": "black",
+    "list": [
+      {"pagePath": "pages/index/index", "text": "首页", "iconPath": "static/tab/home.png", "selectedIconPath": "static/tab/home-active.png"},
+      {"pagePath": "pages/category/category", "text": "分类", "iconPath": "static/tab/category.png", "selectedIconPath": "static/tab/category-active.png"},
+      {"pagePath": "pages/bookmarks/bookmarks", "text": "收藏", "iconPath": "static/tab/bookmark.png", "selectedIconPath": "static/tab/bookmark-active.png"},
+      {"pagePath": "pages/profile/profile", "text": "我的", "iconPath": "static/tab/profile.png", "selectedIconPath": "static/tab/profile-active.png"}
+    ]
+  }
+}

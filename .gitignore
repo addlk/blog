@@ -1,0 +1,13 @@
+﻿node_modules/
+dist/
+.env
+*.log
+.DS_Store
+server/data/
+server/uploads/
+concept-pixel*.html
+.superpowers/
+mp/node_modules/
+mp/unpackage/
+mp/dist/
+.agents/

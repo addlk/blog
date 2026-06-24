@@ -1,0 +1,1 @@
+﻿{"name":"pixel-blog-mp","version":"1.0.0","private":true,"scripts":{"dev:mp-weixin":"uni -p mp-weixin","build:mp-weixin":"uni build -p mp-weixin"},"dependencies":{"vue":"^3.4.0"},"devDependencies":{"@dcloudio/uni-app":"3.0.0-alpha","@dcloudio/uni-mp-weixin":"3.0.0-alpha","vite":"^5.0.0"}}

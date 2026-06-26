@@ -45,7 +45,7 @@ app.get('/api/public/articles', (req, res) => {
     const total = db.prepare(`SELECT COUNT(*) as total FROM articles a${joins} ${where}`).get(...params).total
 
     const records = db.prepare(`
-      SELECT a.*, c.name as category_name,
+      SELECT a.*, c.name as category_name
       FROM articles a LEFT JOIN categories c ON a.category_id = c.id
       ${joins} ${where}
       ORDER BY a.created_at DESC LIMIT ? OFFSET ?
